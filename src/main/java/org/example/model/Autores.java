@@ -9,7 +9,7 @@ public class Autores {
     public Autores() {
     }
 
-    public Autores(String apellido, int autorId, String nacionalidad, String nombre) {
+    public Autores(String nombre, String apellido, String nacionalidad, int autorId) {
         this.apellido = apellido;
         this.autorId = autorId;
         this.nacionalidad = nacionalidad;

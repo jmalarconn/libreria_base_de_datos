@@ -11,7 +11,7 @@ public class Miembros {
     public Miembros(){
     }
 
-    public Miembros(String apellido, Date fechaInscripcion, String miembroId, String nombre) {
+    public Miembros(String nombre, String apellido, Date fechaInscripcion, String miembroId) {
         this.apellido = apellido;
         this.fechaInscripcion = fechaInscripcion;
         this.miembroId = miembroId;

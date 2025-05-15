@@ -12,7 +12,7 @@ public class Prestamos {
     public Prestamos (){
     }
 
-    public Prestamos(Date fechaDevolucion, Date fechaPrestamo, int libroId, int miembroId, int prestamosId) {
+    public Prestamos(int prestamoId, int libroId, int miembroId, Date fechaDevolucion, Date fechaPrestamo) {
         this.fechaDevolucion = fechaDevolucion;
         this.fechaPrestamo = fechaPrestamo;
         this.libroId = libroId;
